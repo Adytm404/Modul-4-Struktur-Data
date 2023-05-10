@@ -147,7 +147,7 @@ public class DataPraktikan {
 
                 switch (pilihan) {
                     case 1:
-                        scanner.nextLine(); // consume newline character
+                        scanner.nextLine();
                         System.out.print("\nNIM Praktikan: ");
                         String nimPraktikan = scanner.nextLine();
                         System.out.print("Nama Asisten: ");
@@ -174,7 +174,7 @@ public class DataPraktikan {
                         System.out.println("\nTotal data: " + totalData());
                         break;
                     case 6:
-                        scanner.nextLine(); // consume newline character
+                        scanner.nextLine();
                         System.out.print("\nNIM Praktikan: ");
                         nimPraktikan = scanner.nextLine();
                         System.out.print("Nama Asisten: ");
@@ -189,7 +189,7 @@ public class DataPraktikan {
                         }
                         break;
                     case 7:
-                        scanner.nextLine(); // consume newline character
+                        scanner.nextLine();
                         System.out.print("\nNIM Praktikan: ");
                         nimPraktikan = scanner.nextLine();
                         System.out.print("Nama Asisten: ");
@@ -200,7 +200,7 @@ public class DataPraktikan {
                         editData(nimPraktikan, namaAsisten, email);
                         break;
                     case 8:
-                        scanner.nextLine(); // consume newline character
+                        scanner.nextLine();
                         System.out.print("\nNama Asisten: ");
                         namaAsisten = scanner.nextLine();
 
